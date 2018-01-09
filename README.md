@@ -3,6 +3,8 @@
 Docker build for a container with CLI Tools for OpenStack and Cloud Foundry.
 Perfect tool for devops teams that want to keep their workstations pristine and dockerize all the things.
 
+Contains CLI tools for all platforms supported by [meshcloud.io](https://www.meshcloud.io/).
+
 ## Usage
 
 Start the container for the first time and attach a shell:
@@ -24,6 +26,3 @@ Remove the container:
 ```bash
 docker container rm meshcloud-cli
 ```
-
-
-
