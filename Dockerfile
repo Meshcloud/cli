@@ -14,3 +14,6 @@ RUN wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.k
     && apt-get update \
     && apt-get install -y cf-cli \
     && rm -rf /var/lib/apt/lists/*
+
+ENV HOME /root
+WORKDIR $HOME
