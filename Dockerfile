@@ -6,7 +6,7 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 # Install OpenStack CLI
-RUN pip3 install python-openstackclient
+RUN pip3 install python-openstackclient python-neutronclient python-novaclient python-swiftclient python-cinderclient pythong-glanceclient
 
 # Install Cloud Foundry CLI
 RUN wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | apt-key add - \
