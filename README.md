@@ -5,6 +5,12 @@ Perfect tool for devops teams that want to keep their workstations pristine and 
 
 Contains CLI tools for all platforms supported by [meshcloud.io](https://www.meshcloud.io/).
 
+Tools: 
+
+  - OpenStack CLI
+  - OpenStack project CLIs (Neutron, Nova, Cinder, Glance, Swift)
+  - Cloud Foundry CLI
+
 ## Usage
 
 Start the container for the first time and attach a shell:
